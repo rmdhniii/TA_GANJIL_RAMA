@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    padding-left: 24px;
+    border-bottom: 1px solid gray;
+    box-shadow: 0px 2px gray;
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 44px;
+}
+
+.teks-nav{
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+
+.teks-nav a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.bos-box-lapor{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.box-lapor{
+    width: 75%;
+    height: 80vh;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.input1{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.input1 input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.input2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.input2 input{
+    width: 80%;
+    height: 400px;
+}  
+#Kotak1 button{
+    margin-left: 90%;
+    margin-top: 10px;
+    width: 70px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.form-login button{
+    cursor: pointer;
+}

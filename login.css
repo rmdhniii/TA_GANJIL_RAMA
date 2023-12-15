@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 ;
+    background-color: azure;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box{
+    display: flex;
+    margin-left: 22%;
+
+}
+#box-text{
+    width: 400px;
+    height: 600px;
+    /* border: 1px solid black; */
+    margin-left: 39px;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(gambar/istockphoto-510075756-1024x1024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box-login{
+    width: 400px;
+    height: 600px;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(90deg, rgb(180, 24, 37) 19%, rgba(19,129,150,1) 100%);
+    
+}
+#box-login h1{
+    margin-left: 25%;
+    margin-top: 50px;
+    font-family: popins,sans-serif;
+    margin-left: 83px;
+}
+#box-login h2{
+    text-align: center;
+    font-family: popins,sans-serif;
+}
+#nama{
+    margin-top: 50px;
+    margin-left: 20%;
+}
+#box-login button{
+    margin-top: 20px;
+    /* margin-left: -25px; */
+    width: 200px;
+    height: 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#box-login h5{
+    margin-top: -46px;
+    margin-left: -25px;
+}
+#box-login h6{
+    margin-left: 13%;
+    margin-top: 20px;
+    font-size: 16px;
+    color: purple;
+    font-family: popins,sans-serif;
+}
+#title{
+    text-align: center;
+    margin-left: 100px;
+    font-size: 40px;
+    font-family: popins,sans-serif;
+    margin: 10px;
+    margin-top: 200px;
+}
+#garis {
+    border: 1px solid #000;
+    margin-left: -30px;
+    margin-right: 200px;
+}
+#garis1{
+    border-bottom: 1px solid black;
+    margin-left: -50px;
+    margin-right: 250px;
+    margin-top: -20px;
+}
+#garis2{
+    border-bottom: 1px solid black;
+    margin-left: 134px;
+    margin-right: 50px;
+    margin-top: -9px;
+}
+#text1{
+    margin-left: 90px;
+    margin-top: -10px;
+}
+div#nama input{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 12px;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: -30px
+}
+div#nama label {
+    display: block;
+    margin-top: 15px;
+    /* border: 1px solid black; */
+}
+div#password label {
+    display: block;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+#Media h3{
+    margin-left: 30px;
+    font-family: popins,sans-serif;
+}
+#socialmedia img{
+    width: 40px;
+    height: 35px;
+    margin-left: 40px;
+}
+.namatext span1{
+    color: blue;
+    cursor: pointer;
+}
+.namatext{
+    font-family: popins,sans-serif;
+    margin-left: 15px;
+    margin-top: 10px;
+}
